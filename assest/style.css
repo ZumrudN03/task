@@ -1,174 +1,214 @@
-.head{
-    display: flex;
-    width: 100%;
-    height: 100px;
-    background-color: rgb(17, 16, 75);
-    justify-items: 50px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around
+.all-page {
+  font-family: "Montserrat", sans-serif;
 }
-.start{
-    font-size: 30px;
-    color: white;
+.all-page .head {
+  display: flex;
+  width: 100%;
+  height: 6.25rem;
+  background-color: rgba(44, 62, 80, 255);
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  font-weight: 700;
+  padding: 0 7%;
 }
-.pac{
-    font-size: 25px;
-    color: white;
+.start {
+  font-size: 1.8rem;
+  color: white;
 }
-.pac span{
-    margin: 10px;
+.head .start a {
+  color: white;
 }
-.container{
-    width: 100%;
-    height: 100vh;
+.pac a {
+  color: white;
+  margin: 0.6rem;
+  font-size: 0.9rem;
+}
+.container {
+  width: 100%;
+  height: 100vh;
 }
 
-.image img{
-    width: 200px;
-    height: 200px;
+.image img {
+  width: 15rem;
 }
 
-.start.bootstrap{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-    padding-top: 80px;  
-    background-color: rgb(26 188 156);
-    height: 70vh;
+.start.bootstrap {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 5rem;
+  background-color: rgb(26 188 156);
+  min-height: 100vh;
+  padding-bottom: 5rem;
 }
-.start-bootstrap{
-    padding-top: 50px;
-    font-size: 50px;
-    
+.start-bootstrap {
+  padding-top: 3.1rem;
+  font-weight: 700;
 }
-.icon{
-    padding-top: 30px;
+.start-bootstrap p {
+  font-size: 4rem;
 }
-.star{
-    font-size: 10px;
+.icon .xet {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 1rem;
 }
-.web{
-    padding-top: 30px;
+.icon {
+  margin: 1.25rem 0 1.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
 }
-.PORTFOLIO{
-    background-color: white;
-    
+.star {
+  font-size: 0.6rem;
 }
-.portfolio{
-    padding-top: 30px;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
+.web {
+  padding-top: 1.8rem;
 }
-.icon2{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 30px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; 
-    
+.web p {
+  font-size: 1.4rem;
+  font-weight: 500;
 }
-.image2 img{
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
-    object-fit: cover;  
+#PORTFOLIO {
+  background-color: white;
+  min-height: 100vh;
+  padding-bottom: 5rem;
+}
+.color1 {
+  color: rgba(44, 62, 80, 255);
+}
+.portfolio {
+  padding-top: 5rem;
+  color: rgba(44, 62, 80, 255);
+  font-size: 3.1rem;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.icon2 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 1.8rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.image2 img {
+  width: 25rem;
+  height: 18.75rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.image2 {
+  flex-direction: row;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
+#ABOUT {
+  min-height: 70vh;
+  padding: 5rem 0;
+  background-color: rgb(26 188 156);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
 }
-.image2{
-    flex-direction: row;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-
-
-
-
-
-
-
-
-/* .container{
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 72px;
-     */
-    /* justify-content: space-around;
-    align-items: center; */
-    /* margin: auto; */
-/* } */
-/* .navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 7px;
-    padding-right: 15px;
+#ABOUT .about {
+  color: white;
+  font-size: 3.1rem;
+  font-weight: bold;
 }
-.logo{
-    padding: 10px;
-    font-size: 50px;
+.color2 {
+  color: white;
 }
-.color{
-    color: white;
+.icon3 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.8rem;
+  font-size: 1.8rem;
 }
-.home{
-    width: 70px;
-    height: 60px;
-    background-color: white;
-    flex-direction: row;    
-    border-radius: 10px;
-    text-align: center;
-    padding-top: 20px;
-    
+.caption {
+  color: white;
+  width: 56.25rem;
+  display: flex;
+  font-size: 1.2rem;
+  text-align: start;
+  line-height: 2rem;
 }
-.all{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    right: 50px;
-    gap: 60px;
-    justify-content: end;
+.caption .about1 {
+  padding-right: 0.75rem;
 }
-.logo2{
-    font-size: 50px;
-    display: none;
+.caption .about2 {
+  padding-left: 0.75rem;
 }
-@media screen and (max-width: 600px) {
-    .all{
-        display: none;
-    }
-    .logo2{
-        display: block;
-    }
-  } */
-/* .card{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border-radius: 20px;
+.btn {
+  color: white;
+  margin-top: 2rem;
+  padding: 1.25rem 1.75rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(26 188 156);
+  border: 2px solid white;
+  font-size: 1.25rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+#CONTACT {
+  min-height: 100vh;
+  padding: 5rem;
+  background-color: white;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+}
+#CONTACT .contact {
+  color: rgba(44, 62, 80, 255);
+  font-size: 3.1rem;
+  font-weight: bold;
+}
 
+input[type="text"] {
+  width: 50rem;
+  padding: 0.75rem 1.25;
+  margin: 0.5 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  height: 5.5rem;
+  line-height: 1.25rem;
+  font-size: 1.25rem;
+  outline: 0;
 }
-@media screen and (max-width: 600px) {
-    .container {
-      flex-direction: column;
-    }
-    .card{
-        background-color: blueviolet;
-    }
-  } */
+textarea {
+  font-family: "Montserrat", sans-serif;
+  width: 50rem;
+  height: 9.3rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: 0;
+  line-height: 1.25rem;
+  font-size: 1.25rem;
+}
+.contact-form .button {
+  padding-top: 2rem;
+  text-align: start;
+}
+
+
